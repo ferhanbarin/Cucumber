@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -28,5 +29,35 @@ public class amazonStepDefinitions {
     public void sonucun_nutella_icerdigini_test_eder() {
 
         Assert.assertTrue(amazonPage.sonucYazisiElement.getText().contains("Nutella"));
+    }
+
+    @And("Sayfayi kapatir.")
+    public void sayfayi_kapatir() {
+
+        Driver.closeDriver();
+    }
+
+    @When("JAVA icin arama yapar.")
+    public void java_icin_arama_yapar() {
+
+        amazonPage.aramaKutusu.sendKeys("JAVA" + Keys.ENTER);
+    }
+
+    @Then("Sonucun JAVA icerdigini test eder.")
+    public void sonucun_java_icerdigini_test_eder() {
+
+        Assert.assertTrue(amazonPage.sonucYazisiElement.getText().contains("JAVA"));
+    }
+
+    @When("iPad icin arama yapar.")
+    public void i_pad_icin_arama_yapar() {
+
+        amazonPage.aramaKutusu.sendKeys("iPad" + Keys.ENTER);
+    }
+
+    @Then("Sonucun iPad icerdigini test eder.")
+    public void sonucun_i_pad_icerdigini_test_eder() {
+
+        Assert.assertTrue(amazonPage.sonucYazisiElement.getText().contains("iPad"));
     }
 }
