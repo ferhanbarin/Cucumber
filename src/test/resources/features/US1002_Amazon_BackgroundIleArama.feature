@@ -5,7 +5,6 @@ Feature: US1002 Amazon Background Ile Arama
         When Kullanici amazon sayfasina gider.
 
 
-
     Scenario: TC01 Amazon Nutella Arama
 
     And Nutella icin arama yapar.
