@@ -75,8 +75,14 @@ public class amazonStepDefinitions {
     }
 
     @Given("Kullanici {string} sayfasina gider.")
-    public void kullaniciSayfasinaGider(String arg0) {
+    public void kullaniciSayfasinaGider(String istenenURL) {
 
+        Driver.getDriver().get(ConfigReader.getProperty(istenenURL));
+    }
 
+    @And("Sonuc sayisini yazdirir.")
+    public void sonucSayisiniYazdirir() {
+
+        System.out.println(amazonPage.sonucYazisiElement.getText());
     }
 }
