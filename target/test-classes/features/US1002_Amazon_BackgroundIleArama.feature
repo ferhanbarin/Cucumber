@@ -5,8 +5,7 @@ Feature: US1002 Amazon Background Ile Arama
         When Kullanici amazon sayfasina gider.
 
 
-
-    Scenario: TC01 Amazon Nutella Arama
+    Scenario: TC04 Amazon Nutella Arama
 
     And Nutella icin arama yapar.
     Then Sonucun Nutella icerdigini test eder.
@@ -14,7 +13,7 @@ Feature: US1002 Amazon Background Ile Arama
 
 
 
-    Scenario: TC02 Amazon JAVA Arama
+    Scenario: TC05 Amazon JAVA Arama
 
     And JAVA icin arama yapar.
     Then Sonucun JAVA icerdigini test eder.
@@ -22,7 +21,7 @@ Feature: US1002 Amazon Background Ile Arama
 
 
 
-    Scenario: TC03 Amazon iPad Arama
+    Scenario: TC06 Amazon iPad Arama
 
     And iPad icin arama yapar.
     Then Sonucun iPad icerdigini test eder.

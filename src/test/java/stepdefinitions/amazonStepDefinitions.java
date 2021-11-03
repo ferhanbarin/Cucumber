@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -59,5 +60,23 @@ public class amazonStepDefinitions {
     public void sonucun_i_pad_icerdigini_test_eder() {
 
         Assert.assertTrue(amazonPage.sonucYazisiElement.getText().contains("iPad"));
+    }
+
+    @And("{string} icin arama yapar.")
+    public void icinAramaYapar(String amazonArananKelime) {
+
+        amazonPage.aramaKutusu.sendKeys(amazonArananKelime + Keys.ENTER);
+    }
+
+    @Then("Sonucun {string} icerdigini test eder.")
+    public void sonucunIcerdiginiTestEder(String amazonArananKelime) {
+
+        Assert.assertTrue(amazonPage.sonucYazisiElement.getText().contains(amazonArananKelime));
+    }
+
+    @Given("Kullanici {string} sayfasina gider.")
+    public void kullaniciSayfasinaGider(String arg0) {
+
+
     }
 }
