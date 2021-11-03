@@ -11,15 +11,6 @@ Feature: US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative te
     Then Giris yapilamadigini test eder.
     And Sayfayi kapatir.
 
-
-
-
-
-
-
-
-
-
     Examples:
     |wrongUserName|wrongPassword|
     |Manager5     | Manager5!   |
