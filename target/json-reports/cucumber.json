@@ -1,0 +1,667 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-04T19:23:28.041Z",
+        "line": 23,
+        "name": "TC13 Editor sayfasina farkli kisiler ekleme.",
+        "description": "",
+        "id": "us1009-editor-sayfasina-farkli-kullanicilar-ekleyebilmeliyim.;tc13-editor-sayfasina-farkli-kisiler-ekleme.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2330530900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici \"EditorURL\" sayfasina gider.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EditorURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70016200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "New butonuna basar.",
+            "match": {
+              "location": "stepdefinitions.EditorStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55011500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Editor firstname kutusuna \"Oguz\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Oguz\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_firstname_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93023000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Editor lastname kutusuna \"Ferhan\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ferhan\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_lastname_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47013600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Editor position kutusuna \"TestLead\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestLead\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_position_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44890000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Editor office kutusuna \"Finland\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Finland\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_office_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48010900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Editor extension kutusuna \"124\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"124\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_extension_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84017700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Editor startdate kutusuna \"2021-01-01\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-01-01\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_startdate_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60017900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Editor salary \"90000\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"90000\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_salary_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40010000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Create tusuna basar.",
+            "match": {
+              "location": "stepdefinitions.EditorStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 908328600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "\"Oguz\" ve \"Ferhan\" girerek kaydin tamamlandigini test eder.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Oguz\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Ferhan\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.veGirerekKaydinTamamlandiginiTestEder(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 582033800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Sayfayi kapatir.",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Editor3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-04T19:23:32.466Z",
+        "line": 24,
+        "name": "TC13 Editor sayfasina farkli kisiler ekleme.",
+        "description": "",
+        "id": "us1009-editor-sayfasina-farkli-kullanicilar-ekleyebilmeliyim.;tc13-editor-sayfasina-farkli-kisiler-ekleme.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1593567900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici \"EditorURL\" sayfasina gider.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EditorURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75016900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "New butonuna basar.",
+            "match": {
+              "location": "stepdefinitions.EditorStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59014200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Editor firstname kutusuna \"Yunus\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yunus\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_firstname_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63013600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Editor lastname kutusuna \"Emirhan\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Emirhan\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_lastname_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89020000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Editor position kutusuna \"Developer\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Developer\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_position_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47010700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Editor office kutusuna \"Poland\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Poland\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_office_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43013000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Editor extension kutusuna \"126\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"126\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_extension_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88083200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Editor startdate kutusuna \"2021-01-01\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-01-01\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_startdate_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60982000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Editor salary \"150000\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"150000\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_salary_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39008300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Create tusuna basar.",
+            "match": {
+              "location": "stepdefinitions.EditorStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 645834300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "\"Yunus\" ve \"Emirhan\" girerek kaydin tamamlandigini test eder.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yunus\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Emirhan\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.veGirerekKaydinTamamlandiginiTestEder(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 571409700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Sayfayi kapatir.",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Editor3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-04T19:23:35.850Z",
+        "line": 25,
+        "name": "TC13 Editor sayfasina farkli kisiler ekleme.",
+        "description": "",
+        "id": "us1009-editor-sayfasina-farkli-kullanicilar-ekleyebilmeliyim.;tc13-editor-sayfasina-farkli-kisiler-ekleme.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1639031800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici \"EditorURL\" sayfasina gider.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EditorURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66015000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "New butonuna basar.",
+            "match": {
+              "location": "stepdefinitions.EditorStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80018400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Editor firstname kutusuna \"Mehmet\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mehmet\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_firstname_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55012500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Editor lastname kutusuna \"Ali\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_lastname_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48010800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Editor position kutusuna \"QA\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_position_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47520400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Editor office kutusuna \"Turkey\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Turkey\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_office_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44010200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Editor extension kutusuna \"130\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"130\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_extension_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81018000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Editor startdate kutusuna \"2021-01-01\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-01-01\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_startdate_kutusuna_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45011600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Editor salary \"70000\" bilgileri girer.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"70000\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.editor_salary_bilgileri_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46010600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Create tusuna basar.",
+            "match": {
+              "location": "stepdefinitions.EditorStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 819882700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "\"Mehmet\" ve \"Ali\" girerek kaydin tamamlandigini test eder.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mehmet\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Ali\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.EditorStepDefinitions.veGirerekKaydinTamamlandiginiTestEder(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 562463400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Sayfayi kapatir.",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Editor3"
+          }
+        ]
+      }
+    ],
+    "name": "US1009 editor sayfasina farkli kullanicilar ekleyebilmeliyim.",
+    "description": "",
+    "id": "us1009-editor-sayfasina-farkli-kullanicilar-ekleyebilmeliyim.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1009_EditorCokluGirisTesti.feature",
+    "tags": []
+  }
+]

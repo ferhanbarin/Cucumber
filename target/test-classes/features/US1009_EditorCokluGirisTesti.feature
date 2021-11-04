@@ -14,6 +14,7 @@ Feature: US1009 editor sayfasina farkli kullanicilar ekleyebilmeliyim.
     And Editor salary "<salary>" bilgileri girer.
     Then Create tusuna basar.
     Then "<firstName>" ve "<lastName>" girerek kaydin tamamlandigini test eder.
+    And Sayfayi kapatir.
 
 
 
