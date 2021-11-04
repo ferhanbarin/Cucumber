@@ -85,4 +85,10 @@ public class AmazonStepDefinitions {
 
         System.out.println(amazonPage.sonucYazisiElement.getText());
     }
+
+    @Then("Basligin {string} icerdigini test eder.")
+    public void basliginIcerdiginiTestEder(String arananKelime) {
+
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(arananKelime));
+    }
 }
