@@ -1,7 +1,7 @@
 Feature: US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative test.
 
   @CH
-  Scenario Outline: Farkli kullanici isimleri ile negative test.
+  Scenario Outline: TC10 Farkli kullanici isimleri ile negative test.
 
     Given Kullanici "CHQAURL" sayfasina gider.
     Then CH Login linkine tiklar.
@@ -10,15 +10,6 @@ Feature: US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative te
     And CH Login butonuna basar.
     Then Giris yapilamadigini test eder.
     And Sayfayi kapatir.
-
-
-
-
-
-
-
-
-
 
     Examples:
     |wrongUserName|wrongPassword|
