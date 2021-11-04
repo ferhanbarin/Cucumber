@@ -3,6 +3,7 @@ package stepdefinitions;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.CHQAPage;
+import utilities.Driver;
 
 public class CHQAStepDefinitions {
 
@@ -37,5 +38,11 @@ public class CHQAStepDefinitions {
     public void giris_yapilamadigini_test_eder() {
 
         Assert.assertTrue(chqaPage.hataliGirisTextElement.isDisplayed());
+    }
+
+    @Then("CH basarili giris yapildigini test eder.")
+    public void chBasariliGirisYapildiginiTestEder() {
+
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("Admin"));
     }
 }

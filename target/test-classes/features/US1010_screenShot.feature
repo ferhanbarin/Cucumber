@@ -13,7 +13,7 @@ Feature: US1010 test failed olursa ScreenShot calismali.
     And Sayfayi kapatir.
 
 
-  Scenario: TC14 Ebay Test
+  Scenario: TC16 Ebay Test
     When Kullanici "EbayURL" sayfasina gider.
     Then Basligin "Ebay" icerdigini test eder.
     And Sayfayi kapatir.
