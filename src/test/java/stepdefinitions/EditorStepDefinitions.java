@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import pages.EditorPage;
@@ -81,5 +82,10 @@ public class EditorStepDefinitions {
 
     @Then("{string} ve {string} girerek kaydin tamamlandigini test eder.")
     public void veGirerekKaydinTamamlandiginiTestEder(String firstName, String lastName) {
+
+        editorPage.searchBox.click();
+        editorPage.searchBox.sendKeys(firstName + " " + lastName);
+
+        Assert.assertTrue(editorPage.isimAramaIlkSatir.isDisplayed());
     }
 }

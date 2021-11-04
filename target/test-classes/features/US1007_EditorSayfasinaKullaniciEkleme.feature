@@ -15,8 +15,6 @@ Feature: US1007 editor sayfasina farkli kullanicilar ekleyebilmeliyim.
     Then Create tusuna basar.
     And Sayfayi kapatir.
 
-    # And Editor ilgili kutulara "<firstName>" "<lastName>" "<position>" "<office>" "<extension>" "<startDate>" "<salary>" bilgilerini girer.
-
 
 
     Examples:

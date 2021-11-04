@@ -11,8 +11,6 @@ Feature: US1008 editor sayfasina farkli kullanicilar ekleyebilmeliyim.
 
 
 
-
-
     Examples:
       |firstName|lastName|position|office|extension|startDate|salary|
       |Oguz   |Ferhan    |TestLead|Finland  |124     |2021-01-01|90000|
