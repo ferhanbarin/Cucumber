@@ -1,5 +1,6 @@
 Feature: US1003 Kullanici istedigi kelime icin arama yapip, sonucu test eder.
 
+  @Report2
   Scenario: TC07 istenen kelimenin oldugunu test etme.
 
     Given Kullanici "AmazonURL" sayfasina gider.

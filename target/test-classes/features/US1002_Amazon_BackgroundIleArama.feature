@@ -1,4 +1,4 @@
-@background
+@Report1
 Feature: US1002 Amazon Background Ile Arama
 
     Background: Amazon sayfasina gitme.
