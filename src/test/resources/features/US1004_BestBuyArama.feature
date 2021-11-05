@@ -1,3 +1,4 @@
+@Paralel2
 Feature: US1004 Ebay sayfasinda kelime arama.
   
   Scenario: TC08 kullanici Ebay'da istedigi kelimeyi aratip test eder.
