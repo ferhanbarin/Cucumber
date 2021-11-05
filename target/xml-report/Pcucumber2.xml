@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="80.517">
+    <testcase classname="US1003 Kullanici istedigi kelime icin arama yapip, sonucu test eder." name="TC07 istenen kelimenin oldugunu test etme." time="7.701">
+        <system-out>
+            <![CDATA[Given Kullanici "AmazonURL" sayfasina gider.................................passed
+And "Nutella" icin arama yapar..............................................passed
+Then Sonucun "Nutella" icerdigini test eder.................................passed
+And Sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 Amazon'da liste ile arama." name="TC09 Amazon'da verilen bir listeyi aratip, var olduklarini test ediniz." time="6.104">
+        <system-out>
+            <![CDATA[Given Kullanici "AmazonURL" sayfasina gider.................................passed
+Then "Nutella" icin arama yapar.............................................passed
+And Sonuc sayisini yazdirir.................................................passed
+And Sonucun "Nutella" icerdigini test eder..................................passed
+Then Sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 Amazon'da liste ile arama." name="TC09 Amazon'da verilen bir listeyi aratip, var olduklarini test ediniz. 2" time="6.82">
+        <system-out>
+            <![CDATA[Given Kullanici "AmazonURL" sayfasina gider.................................passed
+Then "JAVA" icin arama yapar................................................passed
+And Sonuc sayisini yazdirir.................................................passed
+And Sonucun "JAVA" icerdigini test eder.....................................passed
+Then Sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 Amazon'da liste ile arama." name="TC09 Amazon'da verilen bir listeyi aratip, var olduklarini test ediniz. 3" time="6.798">
+        <system-out>
+            <![CDATA[Given Kullanici "AmazonURL" sayfasina gider.................................passed
+Then "iPod" icin arama yapar................................................passed
+And Sonuc sayisini yazdirir.................................................passed
+And Sonucun "iPod" icerdigini test eder.....................................passed
+Then Sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 Amazon'da liste ile arama." name="TC09 Amazon'da verilen bir listeyi aratip, var olduklarini test ediniz. 4" time="5.763">
+        <system-out>
+            <![CDATA[Given Kullanici "AmazonURL" sayfasina gider.................................passed
+Then "Armut" icin arama yapar...............................................passed
+And Sonuc sayisini yazdirir.................................................passed
+And Sonucun "Armut" icerdigini test eder....................................passed
+Then Sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 Amazon'da liste ile arama." name="TC09 Amazon'da verilen bir listeyi aratip, var olduklarini test ediniz. 5" time="6.074">
+        <system-out>
+            <![CDATA[Given Kullanici "AmazonURL" sayfasina gider.................................passed
+Then "Apple" icin arama yapar...............................................passed
+And Sonuc sayisini yazdirir.................................................passed
+And Sonucun "Apple" icerdigini test eder....................................passed
+Then Sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative test." name="TC10 Farkli kullanici isimleri ile negative test." time="8.278">
+        <system-out>
+            <![CDATA[Given Kullanici "CHQAURL" sayfasina gider...................................passed
+Then CH Login linkine tiklar................................................passed
+And CH Username kutusuna "Manager5" yazar...................................passed
+And CH Password kutusuna "Manager5!" yazar..................................passed
+And CH Login butonuna basar.................................................passed
+Then Giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative test." name="TC10 Farkli kullanici isimleri ile negative test. 2" time="8.184">
+        <system-out>
+            <![CDATA[Given Kullanici "CHQAURL" sayfasina gider...................................passed
+Then CH Login linkine tiklar................................................passed
+And CH Username kutusuna "Manager6" yazar...................................passed
+And CH Password kutusuna "Manager6!" yazar..................................passed
+And CH Login butonuna basar.................................................passed
+Then Giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative test." name="TC10 Farkli kullanici isimleri ile negative test. 3" time="8.206">
+        <system-out>
+            <![CDATA[Given Kullanici "CHQAURL" sayfasina gider...................................passed
+Then CH Login linkine tiklar................................................passed
+And CH Username kutusuna "Manager7" yazar...................................passed
+And CH Password kutusuna "Manager7!" yazar..................................passed
+And CH Login butonuna basar.................................................passed
+Then Giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative test." name="TC10 Farkli kullanici isimleri ile negative test. 4" time="8.517">
+        <system-out>
+            <![CDATA[Given Kullanici "CHQAURL" sayfasina gider...................................passed
+Then CH Login linkine tiklar................................................passed
+And CH Username kutusuna "Manager8" yazar...................................passed
+And CH Password kutusuna "Manager8!" yazar..................................passed
+And CH Login butonuna basar.................................................passed
+Then Giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative test." name="TC10 Farkli kullanici isimleri ile negative test. 5" time="7.872">
+        <system-out>
+            <![CDATA[Given Kullanici "CHQAURL" sayfasina gider...................................passed
+Then CH Login linkine tiklar................................................passed
+And CH Username kutusuna "Manager9" yazar...................................passed
+And CH Password kutusuna "Manager9!" yazar..................................passed
+And CH Login butonuna basar.................................................passed
+Then Giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,3 +1,4 @@
+@Paralel2
 Feature: US1006 Concort Hotel sayfasinda farkli kullanici idlari ile negative test.
 
   @CH

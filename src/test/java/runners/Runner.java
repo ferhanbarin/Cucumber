@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
 
 // dryRun = true dedigimizde testi calistirmadan bize eksik adimi verir.
 // dryRun = false yaparsak testi calistirir, eksik bir adimla karsilasirsa test failed olur ve bize eksik adimi raporlar.
+// mvn clean verify = Paralel calistirmak icin Terminal'e yazilir.
 
 public class Runner {
 

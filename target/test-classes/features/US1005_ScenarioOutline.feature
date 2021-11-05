@@ -1,3 +1,4 @@
+@Paralel2
 Feature: US1005 Amazon'da liste ile arama.
 
   Scenario Outline: TC09 Amazon'da verilen bir listeyi aratip, var olduklarini test ediniz.
