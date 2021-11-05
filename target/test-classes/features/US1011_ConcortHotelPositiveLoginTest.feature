@@ -7,4 +7,3 @@ Feature: US1011 kullanici dogru bilgilerle sayfaya girebilmeli.
     And CH Password kutusuna "Manager1!" yazar.
     And CH Login butonuna basar.
     Then CH basarili giris yapildigini test eder.
-    

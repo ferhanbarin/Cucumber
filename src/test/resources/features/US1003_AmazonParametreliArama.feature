@@ -1,3 +1,4 @@
+@TopluCalistirma
 Feature: US1003 Kullanici istedigi kelime icin arama yapip, sonucu test eder.
 
   @Report2
