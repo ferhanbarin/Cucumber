@@ -1,3 +1,4 @@
+@DB
 Feature: US1012 Kullanici CH database'ini test eder.
 
   Scenario: TC18 CH Databese Read Test

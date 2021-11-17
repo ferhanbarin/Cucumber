@@ -1,0 +1,91 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T20:49:27.074Z",
+        "line": 4,
+        "name": "TC18 CH Databese Read Test",
+        "description": "",
+        "id": "us1012-kullanici-ch-database-ini-test-eder.;tc18-ch-databese-read-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1307127700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici CHQA database\u0027ine baglanir.",
+            "match": {
+              "location": "dbStepDefinitions.dbStepDefinition.kullanici_chqa_database_ine_baglanir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204985700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici \"tHOTELROOM\" tablosundaki \"Price\" verilerini alir.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tHOTELROOM\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Price\"",
+                  "offset": 36
+                }
+              ],
+              "location": "dbStepDefinitions.dbStepDefinition.kullanici_tablosundaki_verilerini_alir(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat dbStepDefinitions.dbStepDefinition.kullanici_sütunundaki_verileri_okur_ve_istedigi_islemleri_yapar(dbStepDefinition.java:59)\r\n\tat ✽.Kullanici \"Price\" sütunundaki verileri okur ve istedigi islemleri yapar.(file:///C:/Users/ferha/IdeaProjects/Cucumber/src/test/resources/features/US1012_DbRead.feature:8)\r\n",
+              "duration": 1007880800,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Kullanici \"Price\" sütunundaki verileri okur ve istedigi islemleri yapar.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 10
+                }
+              ],
+              "location": "dbStepDefinitions.dbStepDefinition.kullanici_sütunundaki_verileri_okur_ve_istedigi_islemleri_yapar(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DB"
+          }
+        ]
+      }
+    ],
+    "name": "US1012 Kullanici CH database\u0027ini test eder.",
+    "description": "",
+    "id": "us1012-kullanici-ch-database-ini-test-eder.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1012_DbRead.feature",
+    "tags": [
+      {
+        "name": "@DB",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
