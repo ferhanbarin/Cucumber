@@ -2,7 +2,11 @@ package dbStepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
+
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class dbStepDefinition {
 
@@ -67,11 +71,25 @@ public class dbStepDefinition {
             System.out.println(resultSet.getObject(field).toString());
         }
 
-        // Varsa ilk 100 fiyati integer olarak bir liste seklinde kaydedelim.
+        // Varsa ilk 100 fiyati double olarak bir liste seklinde kaydedelim.
 
+        int count = 1;
+        resultSet.absolute(0);
+        List <Double> ilkYüzSayi = new ArrayList<>();
 
+        while (count<=100 && resultSet.next()) {
 
+            ilkYüzSayi.add(resultSet.getDouble(field));
+            count ++;
+        }
 
+        System.out.println(ilkYüzSayi);
+        System.out.println(ilkYüzSayi.size());
 
+        // 7. fiyatin double olarak 620.0 oldugun test edin.
+
+        resultSet.absolute(7);
+        double yedinciSayi = resultSet.getDouble(field);
+        Assert.assertTrue(yedinciSayi == 620);
     }
 }
