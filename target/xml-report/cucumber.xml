@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.7">
-    <testcase classname="US1012 Kullanici CH database'ini test eder." name="TC18 CH Databese Read Test" time="2.562">
-        <failure message="" type="java.lang.NullPointerException">
-            <![CDATA[Given Kullanici CHQA database'ine baglanir..................................passed
-Then Kullanici "tHOTELROOM" tablosundaki "Price" verilerini alir............passed
-And Kullanici "Price" sütunundaki verileri okur ve istedigi islemleri yapar..failed
-
-StackTrace:
-java.lang.NullPointerException
-	at dbStepDefinitions.dbStepDefinition.kullanici_sütunundaki_verileri_okur_ve_istedigi_islemleri_yapar(dbStepDefinition.java:59)
-	at ✽.Kullanici "Price" sütunundaki verileri okur ve istedigi islemleri yapar.(file:///C:/Users/ferha/IdeaProjects/Cucumber/src/test/resources/features/US1012_DbRead.feature:8)
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.878">
+    <testcase classname="US1013 Kullanici DB Util ile CH database'ini test eder." name="TC19 DB Util ile CH Databese Read Test" time="2.714">
+        <system-out>
+            <![CDATA[Given Kullanici DBUtill ile CHQA database'ine baglanir......................passed
+Then Kullanici DBUtill ile "tHOTELROOM" tablosundaki "Price" verilerini alir..passed
+And Kullanici DBUtill ile "Price" sütunundaki 5. fiyatin 400 oldugunu test eder..passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>
