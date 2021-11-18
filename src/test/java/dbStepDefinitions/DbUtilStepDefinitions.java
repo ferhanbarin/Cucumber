@@ -2,6 +2,7 @@ package dbStepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import utilities.DBUtils;
 
 import java.sql.SQLException;
@@ -41,7 +42,31 @@ public class DbUtilStepDefinitions {
             aktifSatirNumarasi++;
         }
 
+        DBUtils.getResultset().absolute(satirNo);
+        int actualDeger = (int) DBUtils.getResultset().getDouble(field);
+        Assert.assertTrue(actualDeger==expectedPrice);
     }
 
 
+    @Then("DBU IDHotel degeri {int} olan kaydin e-mail degerini {string} yapar.")
+    public void dbuIDHotelDegeriOlanKaydinEMailDegeriniYapar(int IDHotelNo, String yeniEmail) throws SQLException {
+
+        String updateQuery="UPDATE tHOTEL SET Email='"+yeniEmail+"' WHERE IDHotel="+IDHotelNo;
+        DBUtils.executeQuery(updateQuery);
+
+        String readQuery= "SELECT Email FROM tHOTEL";
+
+        DBUtils.executeQuery(readQuery);
+
+        int aktifSatirNumarasi=1;
+        DBUtils.getResultset().first();
+
+        while (aktifSatirNumarasi<100){
+
+            Object satirdakiObje=DBUtils.getResultset().getObject("Email");
+            System.out.println(aktifSatirNumarasi + ".satirdaki Email :" + satirdakiObje.toString());
+            DBUtils.getResultset().next();
+            aktifSatirNumarasi++;
+        }
+    }
 }
